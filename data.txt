@@ -1,0 +1,2854 @@
+obj : Object {
+	atlases : __AS3__.vec.Vector.<Object> {
+		[inherited] :  {
+			fixed : false 
+			length : 0 
+		}
+	}
+	atlasOutput : __AS3__.vec.Vector.<Object> {
+		[inherited] :  {
+			fixed : false 
+			length : 0 
+		}
+	}
+	_defaultPrevented : false 
+	_dependentPackages : Object {
+		wvs1uvfn : true 
+	}
+	_exportDescOnly : false 
+	_extractAlpha : false 
+	_fileExtension : "xml" 
+	_fileName : "Main" 
+	_filePath : "C:\\Users\\zhangxiaoqing\\Documents\\Tencent Files\\735486078\\FileRecv\\test\\output\\Main" 
+	_fontTextures : Object 
+	_genCode : true 
+	_hitTestData : flash.utils.ByteArray {
+		bytesAvailable : 0 
+		endian : "bigEndian" 
+		length : 0 
+		objectEncoding : 3 
+		position : 0 
+		shareable : false 
+	}
+	_hitTestImages : Array 
+	items : Array {
+		0 : Object {
+			addedToPublish : true 
+			callbackParam : null 
+			children : null 
+			creatingObject : false 
+			data : Object {
+				thumbFile : null 
+			}
+			dataRef : 3 
+			dataReleasedTime : 628234 [0x9960a] 
+			dataVersion : 0 
+			doc : null 
+			errorStatus : 0 
+			exported : false 
+			favorite : false 
+			fileName : "Button1.xml" 
+			fontTexture : null 
+			generatingCache : false 
+			id : "b0bh1" 
+			loadQueue : Array 
+			name : "Button1" 
+			nodeStatus : 0 
+			owner : Object {
+				compressPNG : true 
+				descFileSize : 767 [0x2ff] 
+				descModification : 1572067664897 [0x16e0688e401] 
+				jpegQuality : 80 [0x50] 
+				modifiedYetNotPublished : true 
+				needSave : false 
+				publishing : true 
+			}
+			path : "/" 
+			reviewed : null 
+			sortKey : "button1" 
+			thumbImageFile : Object {
+				downloaded : false 
+				nativePath : "C:\\Users\\zhangxiaoqing\\Documents\\Tencent Files\\735486078\\FileRecv\\test\\.objs\\cache\\wqniqwq8\\b0bh1" 
+				preventBackup : false 
+				url : "file:///C:/Users/zhangxiaoqing/Documents/Tencent%20Files/735486078/FileRecv/test/.objs/cache/wqniqwq8/b0bh1" 
+			}
+			treeNode : Object {
+				data : Object {
+					[Object Object @7002ec9 already listed before]
+				}
+				expanded : false 
+			}
+			type : "component" 
+			version : 0 
+		}
+		1 : Object {
+			addedToPublish : true 
+			callbackParam : null 
+			children : null 
+			creatingObject : false 
+			data : Object {
+				thumbFile : null 
+			}
+			dataRef : 4 
+			dataReleasedTime : 628234 [0x9960a] 
+			dataVersion : 0 
+			doc : null 
+			errorStatus : 0 
+			exported : false 
+			favorite : false 
+			fileName : "Button2.xml" 
+			fontTexture : null 
+			generatingCache : false 
+			id : "odm67" 
+			loadQueue : Array 
+			name : "Button2" 
+			nodeStatus : 0 
+			owner : Object {
+				[Object Object @7002d91 already listed before]
+			}
+			path : "/" 
+			reviewed : null 
+			sortKey : "button2" 
+			thumbImageFile : Object {
+				downloaded : false 
+				nativePath : "C:\\Users\\zhangxiaoqing\\Documents\\Tencent Files\\735486078\\FileRecv\\test\\.objs\\cache\\wqniqwq8\\odm67" 
+				preventBackup : false 
+				url : "file:///C:/Users/zhangxiaoqing/Documents/Tencent%20Files/735486078/FileRecv/test/.objs/cache/wqniqwq8/odm67" 
+			}
+			treeNode : Object {
+				data : Object {
+					[Object Object @7002b51 already listed before]
+				}
+				expanded : false 
+			}
+			type : "component" 
+			version : 0 
+		}
+		2 : Object {
+			addedToPublish : true 
+			callbackParam : null 
+			children : null 
+			creatingObject : false 
+			data : Object 
+			dataRef : 2 
+			dataReleasedTime : 628234 [0x9960a] 
+			dataVersion : 0 
+			doc : null 
+			errorStatus : 0 
+			exported : false 
+			favorite : false 
+			fileName : "icon_reinforece.png" 
+			fontTexture : null 
+			generatingCache : false 
+			id : "u4et2" 
+			loadQueue : Array 
+			name : "icon_reinforece" 
+			nodeStatus : 0 
+			owner : Object {
+				[Object Object @7002d91 already listed before]
+			}
+			path : "/" 
+			reviewed : null 
+			sortKey : "icon_reinforece" 
+			thumbImageFile : null 
+			treeNode : Object {
+				data : Object {
+					[Object Object @7002a61 already listed before]
+				}
+				expanded : false 
+			}
+			type : "image" 
+			version : 0 
+		}
+		3 : Object {
+			addedToPublish : true 
+			callbackParam : null 
+			children : null 
+			creatingObject : false 
+			data : Object {
+				thumbFile : null 
+			}
+			dataRef : 2 
+			dataReleasedTime : 628234 [0x9960a] 
+			dataVersion : 4 
+			doc : Object {
+				alpha : 1 
+				apexIndex : 0 
+				blendMode : "normal" 
+				childrenRenderOrder : 0 
+				data : null 
+				dragBounds : null 
+				draggable : false 
+				enabled : true 
+				filters : Array 
+				focusable : false 
+				_gearLocked : false 
+				grayed : false 
+				group : null 
+				height : 1150 [0x47e] 
+				hitArea : null 
+				icon : null 
+				initHeight : 0 
+				initWidth : 0 
+				margin : Object {
+					bottom : 0 
+					left : 0 
+					right : 0 
+					top : 0 
+				}
+				mask : null 
+				maxHeight : 0 
+				maxWidth : 0 
+				minHeight : 0 
+				minWidth : 0 
+				name : "" 
+				nameConflicts : Array 
+				nameMap : Object {
+					dfdsfds : 1 
+					dsadfsaf : 1 
+					dsfdsaf : 1 
+					fdsafd : 1 
+					n4 : 1 
+					n5 : 1 
+					n6 : 1 
+					n7 : 1 
+					n8 : 1 
+					n9 : 1 
+					n10 : 0 
+					xxxx : 1 
+				}
+				opaque : true 
+				packageItem : null 
+				parent : Object {
+					alpha : 1 
+					apexIndex : 0 
+					blendMode : "normal" 
+					childrenRenderOrder : 0 
+					data : null 
+					dragBounds : null 
+					draggable : false 
+					enabled : true 
+					filters : Array 
+					focusable : false 
+					_gearLocked : false 
+					grayed : false 
+					group : null 
+					height : 864 [0x360] 
+					hitArea : null 
+					icon : null 
+					initHeight : 411 [0x19b] 
+					initWidth : 675 [0x2a3] 
+					margin : Object {
+						bottom : 1 
+						left : 1 
+						right : 1 
+						top : 1 
+					}
+					mask : null 
+					maxHeight : 0 
+					maxWidth : 0 
+					minHeight : 0 
+					minWidth : 0 
+					name : "docContainer" 
+					opaque : true 
+					packageItem : Object {
+						bitmapFont : null 
+						callbacks : Array 
+						componentData : XML {
+							0 : XML 
+						}
+						displayList : __AS3__.vec.Vector.<Object> {
+							[inherited] :  {
+								fixed : false 
+								length : 0 
+							}
+						}
+						extensionType : null 
+						file : "" 
+						frames : null 
+						height : 400 [0x190] 
+						id : "au3ni" 
+						image : null 
+						interval : NaN 
+						lastVisitTime : 0 
+						loaded : false 
+						loading : 0 
+						name : "DocContainer" 
+						owner : Object {
+							customId : null 
+						}
+						repeatDelay : NaN 
+						scale9Grid : null 
+						scaleByTile : false 
+						smoothing : false 
+						sound : null 
+						swing : false 
+						tileGridIndice : 0 
+						type : 4 
+						width : 400 [0x190] 
+					}
+					parent : Object {
+						alpha : 1 
+						apexIndex : 0 
+						blendMode : "normal" 
+						childrenRenderOrder : 0 
+						data : null 
+						dragBounds : null 
+						draggable : false 
+						enabled : true 
+						filters : Array 
+						focusable : true 
+						_gearLocked : false 
+						grayed : false 
+						group : null 
+						height : 948 [0x3b4] 
+						hitArea : null 
+						icon : null 
+						initHeight : 746 [0x2ea] 
+						initWidth : 692 [0x2b4] 
+						margin : Object {
+							bottom : 0 
+							left : 0 
+							right : 0 
+							top : 0 
+						}
+						mask : null 
+						maxHeight : 0 
+						maxWidth : 0 
+						minHeight : 0 
+						minWidth : 0 
+						name : "editPanel" 
+						opaque : true 
+						packageItem : Object {
+							bitmapFont : null 
+							callbacks : Array 
+							componentData : XML {
+								0 : XML 
+								1 : XML 
+								2 : XML {
+									0 : XML {
+										0 : XML 
+									}
+									1 : XML {
+										0 : XML 
+										1 : XML 
+									}
+									2 : XML {
+										0 : XML 
+										1 : XML 
+									}
+									3 : XML {
+										0 : XML 
+									}
+									4 : XML {
+										0 : XML 
+									}
+									5 : XML {
+										0 : XML 
+									}
+									6 : XML {
+										0 : XML 
+									}
+									7 : XML {
+										0 : XML 
+									}
+									8 : XML {
+										0 : XML 
+									}
+									9 : XML {
+										0 : XML 
+									}
+									10 : XML {
+										0 : XML 
+									}
+									11 : XML {
+										0 : XML 
+									}
+									12 : XML 
+									13 : XML {
+										0 : XML 
+									}
+									14 : XML 
+									15 : XML {
+										0 : XML 
+									}
+									16 : XML {
+										0 : XML 
+									}
+									17 : XML {
+										0 : XML 
+									}
+									18 : XML {
+										0 : XML 
+									}
+									19 : XML {
+										0 : XML 
+									}
+									20 : XML 
+									21 : XML {
+										0 : XML 
+									}
+									22 : XML {
+										0 : XML 
+									}
+									23 : XML {
+										0 : XML 
+									}
+									24 : XML 
+									25 : XML {
+										0 : XML 
+									}
+									26 : XML 
+									27 : XML 
+									28 : XML {
+										0 : XML 
+									}
+									29 : XML {
+										0 : XML 
+									}
+									30 : XML {
+										0 : XML 
+									}
+									31 : XML {
+										0 : XML 
+									}
+									32 : XML {
+										0 : XML 
+										1 : XML 
+									}
+									33 : XML 
+									34 : XML {
+										0 : XML 
+									}
+									35 : XML {
+										0 : XML 
+									}
+									36 : XML {
+										0 : XML 
+									}
+									37 : XML {
+										0 : XML 
+										1 : XML 
+									}
+									38 : XML {
+										0 : XML 
+									}
+									39 : XML {
+										0 : XML 
+									}
+									40 : XML {
+										0 : XML 
+										1 : XML 
+									}
+									41 : XML {
+										0 : XML 
+									}
+								}
+							}
+							displayList : __AS3__.vec.Vector.<Object> {
+								[inherited] :  {
+									fixed : false 
+									length : 42 [0x2a] 
+								}
+								0 : Object {
+									desc : XML {
+										0 : XML 
+									}
+									listItemCount : 0 
+									packageItem : null 
+									type : "graph" 
+								}
+								1 : Object {
+									desc : XML {
+										0 : XML 
+										1 : XML 
+									}
+									listItemCount : 0 
+									packageItem : null 
+									type : "graph" 
+								}
+								2 : Object {
+									desc : XML {
+										0 : XML 
+										1 : XML 
+									}
+									listItemCount : 0 
+									packageItem : Object {
+										[Object Object @7441449 already listed before]
+									}
+									type : null 
+								}
+								3 : Object {
+									desc : XML {
+										0 : XML 
+									}
+									listItemCount : 0 
+									packageItem : Object {
+										bitmapFont : null 
+										callbacks : Array 
+										componentData : XML {
+											0 : XML 
+											1 : XML 
+											2 : XML {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											3 : XML 
+										}
+										displayList : __AS3__.vec.Vector.<Object> {
+											[inherited] :  {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											0 : Object {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											1 : Object {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											2 : Object {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+										}
+										extensionType : null 
+										file : "" 
+										frames : null 
+										height : 24 [0x18] 
+										id : "au3n2i" 
+										image : null 
+										interval : NaN 
+										lastVisitTime : 0 
+										loaded : false 
+										loading : 0 
+										name : "ToolButton" 
+										owner : Object {
+											[Object Object @707b401 already listed before]
+										}
+										repeatDelay : NaN 
+										scale9Grid : null 
+										scaleByTile : false 
+										smoothing : false 
+										sound : null 
+										swing : false 
+										tileGridIndice : 0 
+										type : 4 
+										width : 24 [0x18] 
+									}
+									type : null 
+								}
+								4 : Object {
+									desc : XML {
+										0 : XML 
+									}
+									listItemCount : 0 
+									packageItem : Object {
+										[Object Object @707cc89 already listed before]
+									}
+									type : null 
+								}
+								5 : Object {
+									desc : XML {
+										0 : XML 
+									}
+									listItemCount : 0 
+									packageItem : Object {
+										[Object Object @707cc89 already listed before]
+									}
+									type : null 
+								}
+								6 : Object {
+									desc : XML {
+										0 : XML 
+									}
+									listItemCount : 0 
+									packageItem : Object {
+										[Object Object @707cc89 already listed before]
+									}
+									type : null 
+								}
+								7 : Object {
+									desc : XML {
+										0 : XML 
+									}
+									listItemCount : 0 
+									packageItem : Object {
+										[Object Object @707cc89 already listed before]
+									}
+									type : null 
+								}
+								8 : Object {
+									desc : XML {
+										0 : XML 
+									}
+									listItemCount : 0 
+									packageItem : Object {
+										[Object Object @707cc89 already listed before]
+									}
+									type : null 
+								}
+								9 : Object {
+									desc : XML {
+										0 : XML 
+									}
+									listItemCount : 0 
+									packageItem : Object {
+										[Object Object @707cc89 already listed before]
+									}
+									type : null 
+								}
+								10 : Object {
+									desc : XML {
+										0 : XML 
+									}
+									listItemCount : 0 
+									packageItem : Object {
+										[Object Object @707cc89 already listed before]
+									}
+									type : null 
+								}
+								11 : Object {
+									desc : XML {
+										0 : XML 
+									}
+									listItemCount : 0 
+									packageItem : Object {
+										[Object Object @707cc89 already listed before]
+									}
+									type : null 
+								}
+								12 : Object {
+									desc : XML 
+									listItemCount : 0 
+									packageItem : Object {
+										bitmapFont : null 
+										callbacks : Array 
+										componentData : null 
+										displayList : null 
+										extensionType : null 
+										file : "au3n39.png" 
+										frames : null 
+										height : 2 
+										id : "au3n39" 
+										image : Object 
+										interval : NaN 
+										lastVisitTime : 0 
+										loaded : true 
+										loading : 0 
+										name : "HzSeperator" 
+										owner : Object {
+											customId : null 
+										}
+										repeatDelay : NaN 
+										scale9Grid : null 
+										scaleByTile : false 
+										smoothing : true 
+										sound : null 
+										swing : false 
+										tileGridIndice : 0 
+										type : 0 
+										width : 22 [0x16] 
+									}
+									type : null 
+								}
+								13 : Object {
+									desc : XML {
+										0 : XML 
+									}
+									listItemCount : 0 
+									packageItem : Object {
+										bitmapFont : null 
+										callbacks : Array 
+										componentData : XML {
+											0 : XML 
+											1 : XML 
+											2 : XML {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											3 : XML 
+										}
+										displayList : __AS3__.vec.Vector.<Object> {
+											[inherited] :  {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											0 : Object {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											1 : Object {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											2 : Object {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+										}
+										extensionType : null 
+										file : "" 
+										frames : null 
+										height : 24 [0x18] 
+										id : "au3n3e" 
+										image : null 
+										interval : NaN 
+										lastVisitTime : 0 
+										loaded : false 
+										loading : 0 
+										name : "ToolButton_Radio" 
+										owner : Object {
+											[Object Object @707b401 already listed before]
+										}
+										repeatDelay : NaN 
+										scale9Grid : null 
+										scaleByTile : false 
+										smoothing : false 
+										sound : null 
+										swing : false 
+										tileGridIndice : 0 
+										type : 4 
+										width : 28 [0x1c] 
+									}
+									type : null 
+								}
+								14 : Object {
+									desc : XML 
+									listItemCount : 0 
+									packageItem : Object {
+										[Object Object @7441fa1 already listed before]
+									}
+									type : null 
+								}
+								15 : Object {
+									desc : XML {
+										0 : XML 
+									}
+									listItemCount : 0 
+									packageItem : Object {
+										[Object Object @7442131 already listed before]
+									}
+									type : null 
+								}
+								16 : Object {
+									desc : XML {
+										0 : XML 
+									}
+									listItemCount : 0 
+									packageItem : Object {
+										[Object Object @707cc89 already listed before]
+									}
+									type : null 
+								}
+								17 : Object {
+									desc : XML {
+										0 : XML 
+									}
+									listItemCount : 0 
+									packageItem : Object {
+										[Object Object @707cc89 already listed before]
+									}
+									type : null 
+								}
+								18 : Object {
+									desc : XML {
+										0 : XML 
+									}
+									listItemCount : 0 
+									packageItem : Object {
+										[Object Object @707cc89 already listed before]
+									}
+									type : null 
+								}
+								19 : Object {
+									desc : XML {
+										0 : XML 
+									}
+									listItemCount : 0 
+									packageItem : Object {
+										[Object Object @707cc89 already listed before]
+									}
+									type : null 
+								}
+								20 : Object {
+									desc : XML 
+									listItemCount : 0 
+									packageItem : Object {
+										[Object Object @7441fa1 already listed before]
+									}
+									type : null 
+								}
+								21 : Object {
+									desc : XML {
+										0 : XML 
+									}
+									listItemCount : 0 
+									packageItem : Object {
+										[Object Object @707cc89 already listed before]
+									}
+									type : null 
+								}
+								22 : Object {
+									desc : XML {
+										0 : XML 
+									}
+									listItemCount : 0 
+									packageItem : Object {
+										[Object Object @707cc89 already listed before]
+									}
+									type : null 
+								}
+								23 : Object {
+									desc : XML {
+										0 : XML 
+									}
+									listItemCount : 0 
+									packageItem : Object {
+										[Object Object @707cc89 already listed before]
+									}
+									type : null 
+								}
+								24 : Object {
+									desc : XML 
+									listItemCount : 0 
+									packageItem : Object {
+										[Object Object @7441fa1 already listed before]
+									}
+									type : null 
+								}
+								25 : Object {
+									desc : XML {
+										0 : XML 
+									}
+									listItemCount : 0 
+									packageItem : null 
+									type : "group" 
+								}
+								26 : Object {
+									desc : XML 
+									listItemCount : 0 
+									packageItem : Object {
+										[Object Object @7441fa1 already listed before]
+									}
+									type : null 
+								}
+								27 : Object {
+									desc : XML 
+									listItemCount : 0 
+									packageItem : Object {
+										[Object Object @7441fa1 already listed before]
+									}
+									type : null 
+								}
+								28 : Object {
+									desc : XML {
+										0 : XML 
+									}
+									listItemCount : 0 
+									packageItem : Object {
+										bitmapFont : null 
+										callbacks : Array 
+										componentData : XML {
+											0 : XML {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											1 : XML 
+										}
+										displayList : __AS3__.vec.Vector.<Object> {
+											[inherited] :  {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											0 : Object {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											1 : Object {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											2 : Object {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											3 : Object {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											4 : Object {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											5 : Object {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+										}
+										extensionType : null 
+										file : "" 
+										frames : null 
+										height : 29 [0x1d] 
+										id : "au3n3h" 
+										image : null 
+										interval : NaN 
+										lastVisitTime : 0 
+										loaded : false 
+										loading : 0 
+										name : "ControllerPanel" 
+										owner : Object {
+											[Object Object @707b401 already listed before]
+										}
+										repeatDelay : NaN 
+										scale9Grid : null 
+										scaleByTile : false 
+										smoothing : false 
+										sound : null 
+										swing : false 
+										tileGridIndice : 0 
+										type : 4 
+										width : 361 [0x169] 
+									}
+									type : null 
+								}
+								29 : Object {
+									desc : XML {
+										0 : XML 
+									}
+									listItemCount : 0 
+									packageItem : null 
+									type : "graph" 
+								}
+								30 : Object {
+									desc : XML {
+										0 : XML 
+									}
+									listItemCount : 0 
+									packageItem : Object {
+										bitmapFont : null 
+										callbacks : Array 
+										componentData : XML {
+											0 : XML 
+											1 : XML {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											2 : XML 
+										}
+										displayList : __AS3__.vec.Vector.<Object> {
+											[inherited] :  {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											0 : Object {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											1 : Object {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											2 : Object {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											3 : Object {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+										}
+										extensionType : null 
+										file : "" 
+										frames : null 
+										height : 20 [0x14] 
+										id : "au3nm" 
+										image : null 
+										interval : NaN 
+										lastVisitTime : 0 
+										loaded : false 
+										loading : 0 
+										name : "MoreButton" 
+										owner : Object {
+											[Object Object @707b401 already listed before]
+										}
+										repeatDelay : NaN 
+										scale9Grid : null 
+										scaleByTile : false 
+										smoothing : false 
+										sound : null 
+										swing : false 
+										tileGridIndice : 0 
+										type : 4 
+										width : 25 [0x19] 
+									}
+									type : null 
+								}
+								31 : Object {
+									desc : XML {
+										0 : XML 
+									}
+									listItemCount : 0 
+									packageItem : null 
+									type : "graph" 
+								}
+								32 : Object {
+									desc : XML {
+										0 : XML 
+										1 : XML 
+									}
+									listItemCount : 0 
+									packageItem : null 
+									type : "list" 
+								}
+								33 : Object {
+									desc : XML 
+									listItemCount : 0 
+									packageItem : null 
+									type : "text" 
+								}
+								34 : Object {
+									desc : XML {
+										0 : XML 
+									}
+									listItemCount : 0 
+									packageItem : null 
+									type : "group" 
+								}
+								35 : Object {
+									desc : XML {
+										0 : XML 
+									}
+									listItemCount : 0 
+									packageItem : Object {
+										[Object Object @7441fa1 already listed before]
+									}
+									type : null 
+								}
+								36 : Object {
+									desc : XML {
+										0 : XML 
+									}
+									listItemCount : 0 
+									packageItem : null 
+									type : "list" 
+								}
+								37 : Object {
+									desc : XML {
+										0 : XML 
+										1 : XML 
+									}
+									listItemCount : 0 
+									packageItem : Object {
+										bitmapFont : null 
+										callbacks : Array 
+										componentData : XML {
+											0 : XML {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+										}
+										displayList : __AS3__.vec.Vector.<Object> {
+											[inherited] :  {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											0 : Object {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											1 : Object {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											2 : Object {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											3 : Object {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											4 : Object {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											5 : Object {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											6 : Object {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											7 : Object {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											8 : Object {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											9 : Object {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											10 : Object {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											11 : Object {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											12 : Object {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											13 : Object {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											14 : Object {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											15 : Object {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											16 : Object {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+										}
+										extensionType : null 
+										file : "" 
+										frames : null 
+										height : 103 [0x67] 
+										id : "tvg7u72" 
+										image : null 
+										interval : NaN 
+										lastVisitTime : 0 
+										loaded : false 
+										loading : 0 
+										name : "TimelinePanel" 
+										owner : Object {
+											[Object Object @707b401 already listed before]
+										}
+										repeatDelay : NaN 
+										scale9Grid : null 
+										scaleByTile : false 
+										smoothing : false 
+										sound : null 
+										swing : false 
+										tileGridIndice : 0 
+										type : 4 
+										width : 650 [0x28a] 
+									}
+									type : null 
+								}
+								38 : Object {
+									desc : XML {
+										0 : XML 
+									}
+									listItemCount : 0 
+									packageItem : null 
+									type : "graph" 
+								}
+								39 : Object {
+									desc : XML {
+										0 : XML 
+									}
+									listItemCount : 0 
+									packageItem : null 
+									type : "group" 
+								}
+								40 : Object {
+									desc : XML {
+										0 : XML 
+										1 : XML 
+									}
+									listItemCount : 0 
+									packageItem : Object {
+										bitmapFont : null 
+										callbacks : Array 
+										componentData : XML {
+											0 : XML {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											1 : XML 
+										}
+										displayList : __AS3__.vec.Vector.<Object> {
+											[inherited] :  {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											0 : Object {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											1 : Object {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											2 : Object {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											3 : Object {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											4 : Object {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											5 : Object {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											6 : Object {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+										}
+										extensionType : null 
+										file : "" 
+										frames : null 
+										height : 29 [0x1d] 
+										id : "krzwiu99" 
+										image : null 
+										interval : NaN 
+										lastVisitTime : 0 
+										loaded : false 
+										loading : 0 
+										name : "TransitionListPanel" 
+										owner : Object {
+											[Object Object @707b401 already listed before]
+										}
+										repeatDelay : NaN 
+										scale9Grid : null 
+										scaleByTile : false 
+										smoothing : false 
+										sound : null 
+										swing : false 
+										tileGridIndice : 0 
+										type : 4 
+										width : 361 [0x169] 
+									}
+									type : null 
+								}
+								41 : Object {
+									desc : XML {
+										0 : XML 
+									}
+									listItemCount : 0 
+									packageItem : null 
+									type : "graph" 
+								}
+							}
+							extensionType : null 
+							file : "" 
+							frames : null 
+							height : 600 [0x258] 
+							id : "au3nh" 
+							image : null 
+							interval : NaN 
+							lastVisitTime : 0 
+							loaded : false 
+							loading : 0 
+							name : "EditPanel" 
+							owner : Object {
+								[Object Object @707b401 already listed before]
+							}
+							repeatDelay : NaN 
+							scale9Grid : null 
+							scaleByTile : false 
+							smoothing : false 
+							sound : null 
+							swing : false 
+							tileGridIndice : 0 
+							type : 4 
+							width : 710 [0x2c6] 
+						}
+						parent : Object {
+							alpha : 1 
+							apexIndex : 0 
+							blendMode : "normal" 
+							childrenRenderOrder : 0 
+							data : null 
+							dragBounds : null 
+							draggable : false 
+							enabled : true 
+							filters : Array 
+							focusable : false 
+							_gearLocked : false 
+							grayed : false 
+							group : null 
+							height : 1002 [0x3ea] 
+							hitArea : null 
+							icon : null 
+							initHeight : 800 [0x320] 
+							initWidth : 1200 [0x4b0] 
+							margin : Object {
+								bottom : 0 
+								left : 0 
+								right : 0 
+								top : 0 
+							}
+							mask : null 
+							maxHeight : 0 
+							maxWidth : 0 
+							minHeight : 0 
+							minWidth : 0 
+							name : "" 
+							opaque : true 
+							packageItem : Object {
+								bitmapFont : null 
+								callbacks : Array 
+								componentData : XML {
+									0 : XML 
+									1 : XML {
+										0 : XML {
+											0 : XML 
+										}
+										1 : XML 
+										2 : XML {
+											0 : XML 
+										}
+										3 : XML {
+											0 : XML 
+										}
+										4 : XML {
+											0 : XML 
+										}
+										5 : XML {
+											0 : XML 
+										}
+										6 : XML {
+											0 : XML 
+										}
+										7 : XML 
+										8 : XML 
+										9 : XML 
+										10 : XML 
+										11 : XML {
+											0 : XML 
+										}
+										12 : XML {
+											0 : XML 
+										}
+										13 : XML 
+										14 : XML {
+											0 : XML 
+										}
+										15 : XML {
+											0 : XML 
+										}
+										16 : XML {
+											0 : XML 
+										}
+										17 : XML 
+										18 : XML 
+										19 : XML {
+											0 : XML 
+										}
+										20 : XML {
+											0 : XML 
+										}
+										21 : XML {
+											0 : XML 
+										}
+										22 : XML {
+											0 : XML 
+										}
+										23 : XML 
+										24 : XML {
+											0 : XML 
+										}
+										25 : XML {
+											0 : XML 
+										}
+										26 : XML {
+											0 : XML 
+										}
+										27 : XML {
+											0 : XML 
+										}
+										28 : XML {
+											0 : XML 
+											1 : XML 
+										}
+										29 : XML {
+											0 : XML 
+											1 : XML 
+											2 : XML 
+										}
+										30 : XML {
+											0 : XML 
+											1 : XML 
+											2 : XML 
+										}
+										31 : XML {
+											0 : XML 
+											1 : XML 
+										}
+										32 : XML {
+											0 : XML 
+											1 : XML 
+										}
+										33 : XML {
+											0 : XML 
+											1 : XML 
+										}
+										34 : XML {
+											0 : XML 
+											1 : XML 
+										}
+										35 : XML {
+											0 : XML 
+										}
+										36 : XML {
+											0 : XML 
+											1 : XML 
+										}
+										37 : XML {
+											0 : XML 
+										}
+										38 : XML {
+											0 : XML 
+										}
+									}
+									2 : XML {
+										0 : XML 
+										1 : XML 
+									}
+									3 : XML {
+										0 : XML 
+										1 : XML 
+									}
+								}
+								displayList : __AS3__.vec.Vector.<Object> {
+									[inherited] :  {
+										fixed : false 
+										length : 39 [0x27] 
+									}
+									0 : Object {
+										desc : XML {
+											0 : XML 
+										}
+										listItemCount : 0 
+										packageItem : null 
+										type : "graph" 
+									}
+									1 : Object {
+										desc : XML 
+										listItemCount : 0 
+										packageItem : Object {
+											bitmapFont : null 
+											callbacks : Array 
+											componentData : XML {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											displayList : __AS3__.vec.Vector.<Object> {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											extensionType : null 
+											file : "" 
+											frames : null 
+											height : 24 [0x18] 
+											id : "pi83u6y" 
+											image : null 
+											interval : NaN 
+											lastVisitTime : 0 
+											loaded : false 
+											loading : 0 
+											name : "PopupMenuButton" 
+											owner : Object {
+												[Object Object @707b401 already listed before]
+											}
+											repeatDelay : NaN 
+											scale9Grid : null 
+											scaleByTile : false 
+											smoothing : false 
+											sound : null 
+											swing : false 
+											tileGridIndice : 0 
+											type : 4 
+											width : 16 [0x10] 
+										}
+										type : null 
+									}
+									2 : Object {
+										desc : XML {
+											0 : XML 
+										}
+										listItemCount : 0 
+										packageItem : Object {
+											bitmapFont : null 
+											callbacks : Array 
+											componentData : XML {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											displayList : __AS3__.vec.Vector.<Object> {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											extensionType : null 
+											file : "" 
+											frames : null 
+											height : 20 [0x14] 
+											id : "gcza18" 
+											image : null 
+											interval : NaN 
+											lastVisitTime : 0 
+											loaded : false 
+											loading : 0 
+											name : "ComboBox" 
+											owner : Object {
+												[Object Object @707c5e1 already listed before]
+											}
+											repeatDelay : NaN 
+											scale9Grid : null 
+											scaleByTile : false 
+											smoothing : false 
+											sound : null 
+											swing : false 
+											tileGridIndice : 0 
+											type : 4 
+											width : 100 [0x64] 
+										}
+										type : null 
+									}
+									3 : Object {
+										desc : XML {
+											0 : XML 
+										}
+										listItemCount : 0 
+										packageItem : Object {
+											[Object Object @707cc89 already listed before]
+										}
+										type : null 
+									}
+									4 : Object {
+										desc : XML {
+											0 : XML 
+										}
+										listItemCount : 0 
+										packageItem : Object {
+											[Object Object @707cc89 already listed before]
+										}
+										type : null 
+									}
+									5 : Object {
+										desc : XML {
+											0 : XML 
+										}
+										listItemCount : 0 
+										packageItem : Object {
+											[Object Object @707cc89 already listed before]
+										}
+										type : null 
+									}
+									6 : Object {
+										desc : XML {
+											0 : XML 
+										}
+										listItemCount : 0 
+										packageItem : Object {
+											[Object Object @707cc89 already listed before]
+										}
+										type : null 
+									}
+									7 : Object {
+										desc : XML 
+										listItemCount : 0 
+										packageItem : Object {
+											bitmapFont : null 
+											callbacks : Array 
+											componentData : null 
+											displayList : null 
+											extensionType : null 
+											file : "au3n38.png" 
+											frames : null 
+											height : 22 [0x16] 
+											id : "au3n38" 
+											image : Object 
+											interval : NaN 
+											lastVisitTime : 0 
+											loaded : true 
+											loading : 0 
+											name : "VtSeperator" 
+											owner : Object {
+												[Object Object @707c5e1 already listed before]
+											}
+											repeatDelay : NaN 
+											scale9Grid : null 
+											scaleByTile : false 
+											smoothing : true 
+											sound : null 
+											swing : false 
+											tileGridIndice : 0 
+											type : 0 
+											width : 2 
+										}
+										type : null 
+									}
+									8 : Object {
+										desc : XML 
+										listItemCount : 0 
+										packageItem : Object {
+											[Object Object @74b6c41 already listed before]
+										}
+										type : null 
+									}
+									9 : Object {
+										desc : XML 
+										listItemCount : 0 
+										packageItem : Object {
+											[Object Object @74b6c41 already listed before]
+										}
+										type : null 
+									}
+									10 : Object {
+										desc : XML 
+										listItemCount : 0 
+										packageItem : Object {
+											bitmapFont : null 
+											callbacks : Array 
+											componentData : XML {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											displayList : __AS3__.vec.Vector.<Object> {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											extensionType : Object 
+											file : "" 
+											frames : null 
+											height : 16 [0x10] 
+											id : "au3n5y" 
+											image : null 
+											interval : NaN 
+											lastVisitTime : 0 
+											loaded : false 
+											loading : 0 
+											name : "ColorInput" 
+											owner : Object {
+												[Object Object @707c5e1 already listed before]
+											}
+											repeatDelay : NaN 
+											scale9Grid : null 
+											scaleByTile : false 
+											smoothing : false 
+											sound : null 
+											swing : false 
+											tileGridIndice : 0 
+											type : 4 
+											width : 30 [0x1e] 
+										}
+										type : null 
+									}
+									11 : Object {
+										desc : XML {
+											0 : XML 
+										}
+										listItemCount : 0 
+										packageItem : Object {
+											[Object Object @707cc89 already listed before]
+										}
+										type : null 
+									}
+									12 : Object {
+										desc : XML {
+											0 : XML 
+										}
+										listItemCount : 0 
+										packageItem : Object {
+											[Object Object @707cc89 already listed before]
+										}
+										type : null 
+									}
+									13 : Object {
+										desc : XML 
+										listItemCount : 0 
+										packageItem : Object {
+											[Object Object @74b6c41 already listed before]
+										}
+										type : null 
+									}
+									14 : Object {
+										desc : XML {
+											0 : XML 
+										}
+										listItemCount : 0 
+										packageItem : Object {
+											[Object Object @707cc89 already listed before]
+										}
+										type : null 
+									}
+									15 : Object {
+										desc : XML {
+											0 : XML 
+										}
+										listItemCount : 0 
+										packageItem : Object {
+											[Object Object @707cc89 already listed before]
+										}
+										type : null 
+									}
+									16 : Object {
+										desc : XML {
+											0 : XML 
+										}
+										listItemCount : 0 
+										packageItem : Object {
+											[Object Object @707cc89 already listed before]
+										}
+										type : null 
+									}
+									17 : Object {
+										desc : XML 
+										listItemCount : 0 
+										packageItem : Object {
+											[Object Object @74b6f89 already listed before]
+										}
+										type : null 
+									}
+									18 : Object {
+										desc : XML 
+										listItemCount : 0 
+										packageItem : Object {
+											[Object Object @74b6c41 already listed before]
+										}
+										type : null 
+									}
+									19 : Object {
+										desc : XML {
+											0 : XML 
+										}
+										listItemCount : 0 
+										packageItem : Object {
+											bitmapFont : null 
+											callbacks : Array 
+											componentData : XML {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											displayList : __AS3__.vec.Vector.<Object> {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											extensionType : null 
+											file : "" 
+											frames : null 
+											height : 24 [0x18] 
+											id : "rn0hiu9i" 
+											image : null 
+											interval : NaN 
+											lastVisitTime : 0 
+											loaded : false 
+											loading : 0 
+											name : "ToolButton_Check2" 
+											owner : Object {
+												[Object Object @707b401 already listed before]
+											}
+											repeatDelay : NaN 
+											scale9Grid : null 
+											scaleByTile : false 
+											smoothing : false 
+											sound : null 
+											swing : false 
+											tileGridIndice : 0 
+											type : 4 
+											width : 28 [0x1c] 
+										}
+										type : null 
+									}
+									20 : Object {
+										desc : XML {
+											0 : XML 
+										}
+										listItemCount : 0 
+										packageItem : Object {
+											[Object Object @74b9da9 already listed before]
+										}
+										type : null 
+									}
+									21 : Object {
+										desc : XML {
+											0 : XML 
+										}
+										listItemCount : 0 
+										packageItem : Object {
+											[Object Object @74b9da9 already listed before]
+										}
+										type : null 
+									}
+									22 : Object {
+										desc : XML {
+											0 : XML 
+										}
+										listItemCount : 0 
+										packageItem : Object {
+											[Object Object @707cc89 already listed before]
+										}
+										type : null 
+									}
+									23 : Object {
+										desc : XML 
+										listItemCount : 0 
+										packageItem : null 
+										type : "group" 
+									}
+									24 : Object {
+										desc : XML {
+											0 : XML 
+										}
+										listItemCount : 0 
+										packageItem : Object {
+											[Object Object @707cc89 already listed before]
+										}
+										type : null 
+									}
+									25 : Object {
+										desc : XML {
+											0 : XML 
+										}
+										listItemCount : 0 
+										packageItem : Object {
+											[Object Object @707cc89 already listed before]
+										}
+										type : null 
+									}
+									26 : Object {
+										desc : XML {
+											0 : XML 
+										}
+										listItemCount : 0 
+										packageItem : Object {
+											[Object Object @707cc89 already listed before]
+										}
+										type : null 
+									}
+									27 : Object {
+										desc : XML {
+											0 : XML 
+										}
+										listItemCount : 0 
+										packageItem : Object {
+											[Object Object @707cc89 already listed before]
+										}
+										type : null 
+									}
+									28 : Object {
+										desc : XML {
+											0 : XML 
+											1 : XML 
+										}
+										listItemCount : 0 
+										packageItem : null 
+										type : "group" 
+									}
+									29 : Object {
+										desc : XML {
+											0 : XML 
+											1 : XML 
+											2 : XML 
+										}
+										listItemCount : 0 
+										packageItem : Object {
+											[Object Object @74bbf89 already listed before]
+										}
+										type : null 
+									}
+									30 : Object {
+										desc : XML {
+											0 : XML 
+											1 : XML 
+											2 : XML 
+										}
+										listItemCount : 0 
+										packageItem : Object {
+											bitmapFont : null 
+											callbacks : Array 
+											componentData : XML {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											displayList : __AS3__.vec.Vector.<Object> {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											extensionType : null 
+											file : "" 
+											frames : null 
+											height : 400 [0x190] 
+											id : "au3n53" 
+											image : null 
+											interval : NaN 
+											lastVisitTime : 0 
+											loaded : false 
+											loading : 0 
+											name : "TestPanel" 
+											owner : Object {
+												[Object Object @707b401 already listed before]
+											}
+											repeatDelay : NaN 
+											scale9Grid : null 
+											scaleByTile : false 
+											smoothing : false 
+											sound : null 
+											swing : false 
+											tileGridIndice : 0 
+											type : 4 
+											width : 729 [0x2d9] 
+										}
+										type : null 
+									}
+									31 : Object {
+										desc : XML {
+											0 : XML 
+											1 : XML 
+										}
+										listItemCount : 0 
+										packageItem : null 
+										type : "list" 
+									}
+									32 : Object {
+										desc : XML {
+											0 : XML 
+											1 : XML 
+										}
+										listItemCount : 0 
+										packageItem : Object {
+											bitmapFont : null 
+											callbacks : Array 
+											componentData : XML {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											displayList : __AS3__.vec.Vector.<Object> {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											extensionType : null 
+											file : "" 
+											frames : null 
+											height : 580 [0x244] 
+											id : "au3n3" 
+											image : null 
+											interval : NaN 
+											lastVisitTime : 0 
+											loaded : false 
+											loading : 0 
+											name : "LibPanel" 
+											owner : Object {
+												[Object Object @707b401 already listed before]
+											}
+											repeatDelay : NaN 
+											scale9Grid : null 
+											scaleByTile : false 
+											smoothing : false 
+											sound : null 
+											swing : false 
+											tileGridIndice : 0 
+											type : 4 
+											width : 235 [0xeb] 
+										}
+										type : null 
+									}
+									33 : Object {
+										desc : XML {
+											0 : XML 
+											1 : XML 
+										}
+										listItemCount : 0 
+										packageItem : Object {
+											bitmapFont : null 
+											callbacks : Array 
+											componentData : XML {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											displayList : __AS3__.vec.Vector.<Object> {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											extensionType : null 
+											file : "" 
+											frames : null 
+											height : 200 [0xc8] 
+											id : "au3n4" 
+											image : null 
+											interval : NaN 
+											lastVisitTime : 0 
+											loaded : false 
+											loading : 0 
+											name : "PreviewPanel" 
+											owner : Object {
+												[Object Object @707b401 already listed before]
+											}
+											repeatDelay : NaN 
+											scale9Grid : null 
+											scaleByTile : false 
+											smoothing : false 
+											sound : null 
+											swing : false 
+											tileGridIndice : 0 
+											type : 4 
+											width : 220 [0xdc] 
+										}
+										type : null 
+									}
+									34 : Object {
+										desc : XML {
+											0 : XML 
+											1 : XML 
+										}
+										listItemCount : 0 
+										packageItem : Object {
+											bitmapFont : null 
+											callbacks : Array 
+											componentData : XML {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											displayList : __AS3__.vec.Vector.<Object> {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											extensionType : null 
+											file : "" 
+											frames : null 
+											height : 200 [0xc8] 
+											id : "oj7qiu9e" 
+											image : null 
+											interval : NaN 
+											lastVisitTime : 0 
+											loaded : false 
+											loading : 0 
+											name : "ChildrenPanel" 
+											owner : Object {
+												[Object Object @707b401 already listed before]
+											}
+											repeatDelay : NaN 
+											scale9Grid : null 
+											scaleByTile : false 
+											smoothing : false 
+											sound : null 
+											swing : false 
+											tileGridIndice : 0 
+											type : 4 
+											width : 220 [0xdc] 
+										}
+										type : null 
+									}
+									35 : Object {
+										desc : XML {
+											0 : XML 
+										}
+										listItemCount : 0 
+										packageItem : null 
+										type : "graph" 
+									}
+									36 : Object {
+										desc : XML {
+											0 : XML 
+											1 : XML 
+										}
+										listItemCount : 0 
+										packageItem : null 
+										type : "graph" 
+									}
+									37 : Object {
+										desc : XML {
+											0 : XML 
+										}
+										listItemCount : 0 
+										packageItem : Object {
+											bitmapFont : null 
+											callbacks : Array 
+											componentData : XML {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											displayList : __AS3__.vec.Vector.<Object> {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											extensionType : null 
+											file : "" 
+											frames : null 
+											height : 33 [0x21] 
+											id : "ah2biuaa" 
+											image : null 
+											interval : NaN 
+											lastVisitTime : 0 
+											loaded : false 
+											loading : 0 
+											name : "NewVersionPrompt" 
+											owner : Object {
+												[Object Object @707b401 already listed before]
+											}
+											repeatDelay : NaN 
+											scale9Grid : null 
+											scaleByTile : false 
+											smoothing : false 
+											sound : null 
+											swing : false 
+											tileGridIndice : 0 
+											type : 4 
+											width : 694 [0x2b6] 
+										}
+										type : null 
+									}
+									38 : Object {
+										desc : XML {
+											0 : XML 
+										}
+										listItemCount : 0 
+										packageItem : Object {
+											bitmapFont : null 
+											callbacks : Array 
+											componentData : XML {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											displayList : __AS3__.vec.Vector.<Object> {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											extensionType : null 
+											file : "" 
+											frames : null 
+											height : 22 [0x16] 
+											id : "au3ng" 
+											image : null 
+											interval : NaN 
+											lastVisitTime : 0 
+											loaded : false 
+											loading : 0 
+											name : "MenuBar" 
+											owner : Object {
+												[Object Object @707b401 already listed before]
+											}
+											repeatDelay : NaN 
+											scale9Grid : null 
+											scaleByTile : false 
+											smoothing : false 
+											sound : null 
+											swing : false 
+											tileGridIndice : 0 
+											type : 4 
+											width : 400 [0x190] 
+										}
+										type : null 
+									}
+								}
+								extensionType : null 
+								file : "" 
+								frames : null 
+								height : 800 [0x320] 
+								id : "au3n0" 
+								image : null 
+								interval : NaN 
+								lastVisitTime : 0 
+								loaded : false 
+								loading : 0 
+								name : "MainPanel" 
+								owner : Object {
+									[Object Object @707b401 already listed before]
+								}
+								repeatDelay : NaN 
+								scale9Grid : null 
+								scaleByTile : false 
+								smoothing : false 
+								sound : null 
+								swing : false 
+								tileGridIndice : 0 
+								type : 4 
+								width : 1200 [0x4b0] 
+							}
+							parent : Object {
+								alpha : 1 
+								apexIndex : 0 
+								blendMode : "normal" 
+								buttonDown : false 
+								childrenRenderOrder : 0 
+								ctrlKeyDown : false 
+								data : null 
+								dragBounds : null 
+								draggable : false 
+								enabled : true 
+								filters : Array 
+								focus : Object {
+									alpha : 1 
+									apexIndex : 0 
+									blendMode : "normal" 
+									bringToFontOnClick : true 
+									childrenRenderOrder : 0 
+									closeButton : null 
+									contentArea : null 
+									contentPane : Object {
+										alpha : 1 
+										apexIndex : 0 
+										blendMode : "normal" 
+										childrenRenderOrder : 0 
+										data : null 
+										dragBounds : null 
+										draggable : false 
+										enabled : true 
+										filters : Array 
+										focusable : false 
+										_gearLocked : false 
+										grayed : false 
+										group : null 
+										height : 80 [0x50] 
+										hitArea : null 
+										icon : null 
+										initHeight : 80 [0x50] 
+										initWidth : 400 [0x190] 
+										margin : Object {
+											bottom : 0 
+											left : 0 
+											right : 0 
+											top : 0 
+										}
+										mask : null 
+										maxHeight : 0 
+										maxWidth : 0 
+										minHeight : 0 
+										minWidth : 0 
+										name : "" 
+										opaque : true 
+										packageItem : Object {
+											bitmapFont : null 
+											callbacks : Array 
+											componentData : XML {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											displayList : __AS3__.vec.Vector.<Object> {
+												[Recursion too deep, increase Copy Tree Max Level in FlashDebugger settings]
+											}
+											extensionType : null 
+											file : "" 
+											frames : null 
+											height : 80 [0x50] 
+											id : "au3n3t" 
+											image : null 
+											interval : NaN 
+											lastVisitTime : 0 
+											loaded : false 
+											loading : 0 
+											name : "WaitingDialog" 
+											owner : Object {
+												[Object Object @707b401 already listed before]
+											}
+											repeatDelay : NaN 
+											scale9Grid : null 
+											scaleByTile : false 
+											smoothing : false 
+											sound : null 
+											swing : false 
+											tileGridIndice : 0 
+											type : 4 
+											width : 400 [0x190] 
+										}
+										parent : Object {
+											[Object Object @707b7a9 already listed before]
+										}
+										pivotX : 0 
+										pivotY : 0 
+										pixelSnapping : false 
+										resizePriorityInGroup : 0 
+										rotation : 0 
+										scaleX : 1 
+										scaleY : 1 
+										sortingOrder : 0 
+										sourceHeight : 80 [0x50] 
+										sourceWidth : 400 [0x190] 
+										text : null 
+										tooltips : null 
+										touchable : true 
+										viewHeight : 80 [0x50] 
+										viewWidth : 400 [0x190] 
+										visible : true 
+										width : 400 [0x190] 
+										x : 0 
+										xMin : 0 
+										y : 0 
+										yMin : 0 
+									}
+									data : null 
+									dragArea : null 
+									dragBounds : null 
+									draggable : false 
+									enabled : true 
+									filters : Array 
+									focusable : true 
+									_gearLocked : false 
+									grayed : false 
+									group : null 
+									height : 80 [0x50] 
+									hitArea : null 
+									icon : null 
+									initHeight : 0 
+									initWidth : 0 
+									margin : Object {
+										bottom : 0 
+										left : 0 
+										right : 0 
+										top : 0 
+									}
+									mask : null 
+									maxHeight : 0 
+									maxWidth : 0 
+									minHeight : 0 
+									minWidth : 0 
+									modal : true 
+									name : "" 
+									opaque : false 
+									packageItem : null 
+									parent : Object {
+										[Object Object @707b899 already listed before]
+									}
+									pivotX : 0 
+									pivotY : 0 
+									pixelSnapping : true 
+									resizePriorityInGroup : 0 
+									rotation : 0 
+									scaleX : 1 
+									scaleY : 1 
+									sortingOrder : 0 
+									sourceHeight : 0 
+									sourceWidth : 0 
+									text : null 
+									tooltips : null 
+									touchable : true 
+									viewHeight : 80 [0x50] 
+									viewWidth : 400 [0x190] 
+									visible : true 
+									width : 400 [0x190] 
+									x : 292 [0x124] 
+									xMin : 292 [0x124] 
+									y : 461 [0x1cd] 
+									yMin : 461 [0x1cd] 
+								}
+								focusable : false 
+								_gearLocked : false 
+								grayed : false 
+								group : null 
+								height : 1002 [0x3ea] 
+								hitArea : null 
+								icon : null 
+								initHeight : 0 
+								initWidth : 0 
+								margin : Object {
+									bottom : 0 
+									left : 0 
+									right : 0 
+									top : 0 
+								}
+								mask : null 
+								maxHeight : 0 
+								maxWidth : 0 
+								minHeight : 0 
+								minWidth : 0 
+								name : "" 
+								opaque : false 
+								packageItem : null 
+								parent : null 
+								pivotX : 0 
+								pivotY : 0 
+								pixelSnapping : false 
+								resizePriorityInGroup : 0 
+								rotation : 0 
+								scaleX : 1 
+								scaleY : 1 
+								shiftKeyDown : false 
+								sortingOrder : 0 
+								sourceHeight : 0 
+								sourceWidth : 0 
+								text : null 
+								tooltips : null 
+								touchable : true 
+								viewHeight : 1002 [0x3ea] 
+								viewWidth : 984 [0x3d8] 
+								visible : true 
+								volumeScale : 1 
+								width : 984 [0x3d8] 
+								x : 0 
+								xMin : 0 
+								y : 0 
+								yMin : 0 
+							}
+							pivotX : 0 
+							pivotY : 0 
+							pixelSnapping : false 
+							resizePriorityInGroup : 0 
+							rotation : 0 
+							scaleX : 1 
+							scaleY : 1 
+							sortingOrder : 0 
+							sourceHeight : 800 [0x320] 
+							sourceWidth : 1200 [0x4b0] 
+							text : null 
+							tooltips : null 
+							touchable : true 
+							viewHeight : 1002 [0x3ea] 
+							viewWidth : 984 [0x3d8] 
+							visible : true 
+							width : 984 [0x3d8] 
+							x : 0 
+							xMin : 0 
+							y : 0 
+							yMin : 0 
+						}
+						pivotX : 0 
+						pivotY : 0 
+						pixelSnapping : false 
+						resizePriorityInGroup : 0 
+						rotation : 0 
+						scaleX : 1 
+						scaleY : 1 
+						sortingOrder : 0 
+						sourceHeight : 600 [0x258] 
+						sourceWidth : 710 [0x2c6] 
+						text : null 
+						tooltips : "" 
+						touchable : true 
+						viewHeight : 948 [0x3b4] 
+						viewWidth : 416 [0x1a0] 
+						visible : true 
+						width : 416 [0x1a0] 
+						x : 302 [0x12e] 
+						xMin : 302 [0x12e] 
+						y : 50 [0x32] 
+						yMin : 50 [0x32] 
+					}
+					pivotX : 0 
+					pivotY : 0 
+					pixelSnapping : false 
+					resizePriorityInGroup : 0 
+					rotation : 0 
+					scaleX : 1 
+					scaleY : 1 
+					sortingOrder : 0 
+					sourceHeight : 400 [0x190] 
+					sourceWidth : 400 [0x190] 
+					text : null 
+					tooltips : "" 
+					touchable : true 
+					viewHeight : 849 [0x351] 
+					viewWidth : 366 [0x16e] 
+					visible : true 
+					width : 381 [0x17d] 
+					x : 35 [0x23] 
+					xMin : 35 [0x23] 
+					y : 84 [0x54] 
+					yMin : 84 [0x54] 
+				}
+				pivotX : 0 
+				pivotY : 0 
+				pixelSnapping : false 
+				relationsDisabled : false 
+				resizePriorityInGroup : 0 
+				rotation : 0 
+				scaleX : 1 
+				scaleY : 1 
+				showAllInvisibles : false 
+				sortingOrder : 0 
+				sourceHeight : 0 
+				sourceWidth : 0 
+				testPanelScale : 1 
+				testPanelScreenSize : null 
+				text : null 
+				tooltips : null 
+				touchable : true 
+				viewHeight : 1150 [0x47e] 
+				viewWidth : 1611 [0x64b] 
+				visible : true 
+				width : 1611 [0x64b] 
+				x : 0 
+				xMin : 0 
+				y : 0 
+				yMin : 0 
+			}
+			errorStatus : 0 
+			exported : true 
+			favorite : false 
+			fileName : "icon.xml" 
+			fontTexture : null 
+			generatingCache : false 
+			id : "k8ep0" 
+			loadQueue : Array 
+			name : "icon" 
+			nodeStatus : 0 
+			owner : Object {
+				[Object Object @7002d91 already listed before]
+			}
+			path : "/" 
+			reviewed : null 
+			sortKey : "icon" 
+			thumbImageFile : Object {
+				downloaded : false 
+				nativePath : "C:\\Users\\zhangxiaoqing\\Documents\\Tencent Files\\735486078\\FileRecv\\test\\.objs\\cache\\wqniqwq8\\k8ep0" 
+				preventBackup : false 
+				url : "file:///C:/Users/zhangxiaoqing/Documents/Tencent%20Files/735486078/FileRecv/test/.objs/cache/wqniqwq8/k8ep0" 
+			}
+			treeNode : Object {
+				data : Object {
+					[Object Object @7002989 already listed before]
+				}
+				expanded : false 
+			}
+			type : "component" 
+			version : 4 
+		}
+	}
+	outputClasses : Object {
+		b0bh1 : Object {
+			classId : "b0bh1" 
+			className : "Button1" 
+			members : Array {
+				0 : Object {
+					index : 1 
+					name : "button" 
+					type : "Controller" 
+				}
+				1 : Object {
+					index : 0 
+					name : "n0" 
+					type : "GGraph" 
+				}
+				2 : Object {
+					index : 1 
+					name : "n1" 
+					type : "GGraph" 
+				}
+				3 : Object {
+					index : 2 
+					name : "n2" 
+					type : "GGraph" 
+				}
+			}
+			superClassName : "GButton" 
+		}
+		k8ep0 : Object {
+			classId : "k8ep0" 
+			className : "icon" 
+			members : Array {
+				0 : Object {
+					index : 0 
+					name : "c1" 
+					type : "Controller" 
+				}
+				1 : Object {
+					index : 0 
+					name : "dfdsfds" 
+					type : "GGraph" 
+				}
+				2 : Object {
+					index : 1 
+					name : "dsfdsaf" 
+					type : "GGraph" 
+				}
+				3 : Object {
+					index : 2 
+					name : "dsadfsaf" 
+					src : "Button1" 
+					src_id : "b0bh1" 
+					type : "GComponent" 
+				}
+				4 : Object {
+					index : 3 
+					name : "fdsafd" 
+					type : "GTextField" 
+				}
+				5 : Object {
+					index : 4 
+					name : "n4" 
+					type : "GLoader" 
+				}
+				6 : Object {
+					index : 5 
+					name : "n5" 
+					src : "Button2" 
+					src_id : "odm67" 
+					type : "GComponent" 
+				}
+				7 : Object {
+					index : 6 
+					name : "n6" 
+					src : "Button1" 
+					src_id : "b0bh1" 
+					type : "GComponent" 
+				}
+				8 : Object {
+					index : 7 
+					name : "n7" 
+					src : "Button2" 
+					src_id : "odm67" 
+					type : "GComponent" 
+				}
+				9 : Object {
+					index : 8 
+					name : "n8" 
+					src : "Button2" 
+					src_id : "odm67" 
+					type : "GComponent" 
+				}
+				10 : Object {
+					index : 9 
+					name : "n9" 
+					type : "GImage" 
+				}
+				11 : Object {
+					index : 10 [0xa] 
+					name : "xxxx" 
+					pkg : "sdsd" 
+					pkg_id : "wvs1uvfn" 
+					src : "Button3" 
+					src_id : "q44r0" 
+					type : "GComponent" 
+				}
+			}
+			superClassName : "GComboBox" 
+		}
+		odm67 : Object {
+			classId : "odm67" 
+			className : "Button2" 
+			customSuperClassName : "MyWindowClass" 
+			members : Array {
+				0 : Object {
+					index : 0 
+					name : "button" 
+					type : "Controller" 
+				}
+				1 : Object {
+					index : 0 
+					name : "n0" 
+					type : "GGraph" 
+				}
+				2 : Object {
+					index : 1 
+					name : "n1" 
+					type : "GGraph" 
+				}
+				3 : Object {
+					index : 2 
+					name : "n2" 
+					type : "GGraph" 
+				}
+				4 : Object {
+					index : 3 
+					name : "title" 
+					type : "GTextField" 
+				}
+				5 : Object {
+					index : 4 
+					name : "icon" 
+					type : "GLoader" 
+				}
+			}
+			superClassName : "GComponent" 
+		}
+	}
+	_outputClasses : Object {
+		[Object Object @6fe0359 already listed before]
+	}
+	outputDesc : Object {
+		b0bh1.xml : XML {
+			0 : XML 
+			1 : XML 
+			2 : XML {
+				0 : XML {
+					0 : XML 
+					1 : XML 
+				}
+				1 : XML {
+					0 : XML 
+					1 : XML 
+				}
+				2 : XML {
+					0 : XML 
+					1 : XML 
+				}
+			}
+		}
+		k8ep0.xml : XML {
+			0 : XML 
+			1 : XML {
+				0 : XML {
+					0 : XML 
+					1 : XML 
+					2 : XML 
+				}
+				1 : XML {
+					0 : XML 
+					1 : XML 
+					2 : XML 
+				}
+				2 : XML 
+				3 : XML 
+				4 : XML 
+				5 : XML 
+				6 : XML {
+					0 : XML 
+				}
+				7 : XML 
+				8 : XML {
+					0 : XML 
+				}
+				9 : XML 
+				10 : XML 
+			}
+			2 : XML 
+		}
+		odm67.xml : XML {
+			0 : XML 
+			1 : XML {
+				0 : XML {
+					0 : XML 
+					1 : XML 
+				}
+				1 : XML {
+					0 : XML 
+					1 : XML 
+				}
+				2 : XML {
+					0 : XML 
+					1 : XML 
+				}
+				3 : XML {
+					0 : XML 
+				}
+				4 : XML {
+					0 : XML 
+				}
+			}
+			2 : XML 
+		}
+		package.xml : XML {
+			0 : XML {
+				0 : XML 
+				1 : XML 
+				2 : XML 
+				3 : XML 
+			}
+		}
+	}
+	_outputDesc : Object {
+		[Object Object @6fe2a19 already listed before]
+	}
+	outputRes : Object {
+		u4et2.png : flash.utils.ByteArray {
+			bytesAvailable : 1735 [0x6c7] 
+			endian : "bigEndian" 
+			length : 1735 [0x6c7] 
+			objectEncoding : 3 
+			position : 0 
+			shareable : false 
+		}
+	}
+	_outputRes : Object {
+		[Object Object @6fe0509 already listed before]
+	}
+	pkg : Object {
+		[Object Object @7002d91 already listed before]
+	}
+	_project : Object {
+		globalFontVersion : 0 
+		refreshRunnning : false 
+		settingsCenter : Object {
+			adaptation : Object {
+				defaultResolution : "1136,640" 
+				designResolutionX : 0 
+				designResolutionY : 0 
+				project : Object {
+					[Object Object @6ff8b21 already listed before]
+				}
+				resolutions : Array {
+					0 : Object {
+						isMobile : true 
+						name : "iPhone 5" 
+						resolutionX : 1136 [0x470] 
+						resolutionY : 640 [0x280] 
+					}
+					1 : Object {
+						isMobile : true 
+						name : "iPhone 6/7/8" 
+						resolutionX : 1334 [0x536] 
+						resolutionY : 750 [0x2ee] 
+					}
+					2 : Object {
+						isMobile : true 
+						name : "iPhone 6/7/8 Plus" 
+						resolutionX : 1920 [0x780] 
+						resolutionY : 1080 [0x438] 
+					}
+					3 : Object {
+						isMobile : true 
+						name : "iPhone X" 
+						resolutionX : 2436 [0x984] 
+						resolutionY : 1125 [0x465] 
+					}
+					4 : Object {
+						isMobile : true 
+						name : "iPad" 
+						resolutionX : 1024 [0x400] 
+						resolutionY : 768 [0x300] 
+					}
+					5 : Object {
+						isMobile : true 
+						name : "720p Phone" 
+						resolutionX : 1280 [0x500] 
+						resolutionY : 720 [0x2d0] 
+					}
+					6 : Object {
+						isMobile : true 
+						name : "1080p Phone" 
+						resolutionX : 1920 [0x780] 
+						resolutionY : 1080 [0x438] 
+					}
+					7 : Object {
+						isMobile : true 
+						name : "华为 Mate9" 
+						resolutionX : 2560 [0xa00] 
+						resolutionY : 1440 [0x5a0] 
+					}
+					8 : Object {
+						isMobile : true 
+						name : "小米 MIX2" 
+						resolutionX : 2160 [0x870] 
+						resolutionY : 1080 [0x438] 
+					}
+					9 : Object {
+						isMobile : true 
+						name : "三星 S8" 
+						resolutionX : 2960 [0xb90] 
+						resolutionY : 1440 [0x5a0] 
+					}
+					10 : Object {
+						isMobile : true 
+						name : "LG G6" 
+						resolutionX : 2880 [0xb40] 
+						resolutionY : 1440 [0x5a0] 
+					}
+					11 : Object {
+						isMobile : false 
+						name : "1080p PC" 
+						resolutionX : 1920 [0x780] 
+						resolutionY : 1080 [0x438] 
+					}
+				}
+				scaleMode : "ConstantPixelSize" 
+				screenMathMode : "MatchWidthOrHeight" 
+			}
+			common : Object {
+				buttonClickSound : "" 
+				colorScheme : Array {
+					0 : "自定义颜色 #FF0000" 
+				}
+				defaultScrollBarDisplay : "visible" 
+				font : "_sans" 
+				fontAdjustment : true 
+				fontScheme : Array {
+					0 : "默认字体" 
+				}
+				fontSize : 12 [0xc] 
+				fontSizeScheme : Array {
+					0 : "自定义字体大小 30" 
+				}
+				horizontalScrollBar : "" 
+				project : Object {
+					[Object Object @6ff8b21 already listed before]
+				}
+				publishDepEnabled : false 
+				textColor : 0 
+				tipsRes : "" 
+				verticalScrollBar : "" 
+			}
+			customProps : Object {
+				all : Object 
+				project : Object {
+					[Object Object @6ff8b21 already listed before]
+				}
+			}
+			publish : Object {
+				binaryFormat : true 
+				classNamePrefix : "UI_" 
+				codePath : "C:\\Users\\zhangxiaoqing\\Documents\\Tencent Files\\735486078\\FileRecv\\test\\output\\Code" 
+				codeType : "" 
+				compressDesc : false 
+				fileExtension : "xml" 
+				filePath : "C:\\Users\\zhangxiaoqing\\Documents\\Tencent Files\\735486078\\FileRecv\\test\\output" 
+				getMemberByName : false 
+				ignoreNoname : false 
+				memberNamePrefix : "m_" 
+				packageCount : 2 
+				packageName : "ccc" 
+				project : Object {
+					[Object Object @6ff8b21 already listed before]
+				}
+				unityDataFormat : 1 
+			}
+			workspace : Object {
+				active_doc : null 
+				docs : Array 
+				expanded_nodes : Array {
+					0 : "wqniqwq8" 
+					1 : "/" 
+				}
+				hidden_packages : Array 
+				project : Object {
+					[Object Object @6ff8b21 already listed before]
+				}
+			}
+		}
+		timestamp : 1572065892842 [0x16e066dd9ea] 
+		type : "Flash" 
+		version : "3.0" 
+	}
+	_singlePackage : false 
+	sprites : null 
+	_sprites : null 
+	_spritesInfo : Array 
+	usingAtlas : false 
+}

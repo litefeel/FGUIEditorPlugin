@@ -16,12 +16,13 @@ package
 		{
 			_editor = editor;
 			
-			if(_editor.project.type=="Starling" || _editor.project.type=="Flash")
+			//if(_editor.project.type=="Starling" || _editor.project.type=="Flash")
 			{
-				_editor.registerPublishHandler(new ExportNoZipPlugIn(_editor));
+				//_editor.registerPublishHandler(new ExportNoZipPlugIn(_editor));
 //				_editor.registerPublishHandler(new GenerateCodePlugIn(_editor));
-				_editor.registerPublishHandler(new AutoGenerateCodePlugin(_editor));
-				_editor.registerPublishHandler(new BatExecutePlugin(_editor));
+				//_editor.registerPublishHandler(new AutoGenerateCodePlugin(_editor));
+				_editor.registerPublishHandler(new SaveDataPlugin(_editor));
+				//_editor.registerPublishHandler(new BatExecutePlugin(_editor));
 			}
 			
 			_editor.registerComponentExtension("窗口", "MyWindowClass", null);

@@ -1,7 +1,7 @@
 /*******************************************
  * Author : hanxianming
  * Date   : 2016-3-23
- * Use    : 
+ * Use    :
  *******************************************/
 
 package
@@ -28,7 +28,6 @@ package
 			_editor = editor;
 		}
 		
-		
 		/**
 		 * 组件输出类定义列表。这是一个Map，key是组件id，value是一个结构体，例如：
 		 * {
@@ -47,9 +46,7 @@ package
 		
 		public function doExport(data:IPublishData, callback:ICallback):Boolean
 		{
-			
-			if(_editor.project.customProperties["gen_code"]!="true")
-				return false;
+			if (data["_genCode"] != "true") return false;
 			
 			var classCodes:Array = [];
 			var bindCodes:Array = [];
@@ -59,10 +56,10 @@ package
 			var code_path:String = _editor.project.customProperties["code_path"];
 			if (code_path == "" || code_path == null)
 			{
-				callback.addMsg("请指定导出路径 code_path");
+				callback.addMsg("请指定导出路径1 code_path");
 				return false;
 			}
-
+			
 			code_path = new File(data.filePath).resolvePath(code_path).nativePath;
 			
 			var codeFolder:File = new File(data.filePath);
@@ -72,17 +69,14 @@ package
 			try
 			{
 				codeFolder.deleteDirectory(true)
-			} 
-			catch(error:Error) 
+			}
+			catch (error:Error)
 			{
 				
 			}
 			
-			
-			if(!codeFolder.exists)
+			if (!codeFolder.exists)
 				codeFolder.createDirectory();
-			
-			
 			
 			allBindCodes.push("package");
 			allBindCodes.push("{");
@@ -93,7 +87,7 @@ package
 			allBindCodes.push("\t\t{");
 			
 			var projectXML:XML = new XML(FileTool.readFile(_editor.project.basePath + File.separator + "project.xml"));
-			for each (var j:XML in (projectXML.packages as XMLList).children()) 
+			for each (var j:XML in(projectXML.packages as XMLList).children())
 			{
 				var publishPath:String = _editor.project.basePath + File.separator + j.@name;
 				var packageXML:XML = new XML(FileTool.readFile(publishPath + File.separator + "package.xml"));
@@ -102,10 +96,10 @@ package
 				allBindCodes.splice(2, 0, "\timport viewuicode." + publishPackageName + ".Binder_" + publishPackageName);
 				allBindCodes.push("\t\t\tBinder_" + publishPackageName + ".bindAll();");
 				
-				for each (var i:XML in (packageXML.resources as XMLList).children()) 
+				for each (var i:XML in(packageXML.resources as XMLList).children())
 				{
 					packageObjByGid[String(i.@id)] = i;
-					packageObjByClassName[String(i.@name)] = {xml:i, packageName:String(j.@name)};
+					packageObjByClassName[String(i.@name)] = {xml: i, packageName: String(j.@name)};
 				}
 			}
 			
@@ -127,7 +121,7 @@ package
 			
 			var sameBindImportCheck:Object = {};
 			
-			for each(var classInfo:Object in data.outputClasses)
+			for each (var classInfo:Object in data.outputClasses)
 			{
 				sameNameCheck = {};
 				classCodes.length = 0;
@@ -148,26 +142,26 @@ package
 				classCodes.push("{");
 				classCodes.push("\timport fairygui.*;");
 				classCodes.push("");
-				classCodes.push("\tpublic class " + className + " extends " + (classInfo.customSuperClassName?classInfo.customSuperClassName:classInfo.superClassName));
+				classCodes.push("\tpublic class " + className + " extends " + (classInfo.customSuperClassName ? classInfo.customSuperClassName : classInfo.superClassName));
 				classCodes.push("\t{");
 				
 				classCodes.push("\t\tpublic static const url:String = " + "\"ui://" + data.targetUIPackage.id + classInfo.classId + "\";");
 				classCodes.push("\n");
 				var memberImportSameCheck:Object = {};
 				
-				for each(var memberInfo:Object in classInfo.members)
+				for each (var memberInfo:Object in classInfo.members)
 				{
 					if (!checkIsUseDefaultName(memberInfo.name))
 					{
 						var existed:* = sameNameCheck[memberInfo.type + "#" + memberInfo.name];
-						if(existed!=undefined)
+						if (existed != undefined)
 						{
 							existed++;
-							memberInfo.name = memberInfo.name + existed;						
+							memberInfo.name = memberInfo.name + existed;
 						}
 						sameNameCheck[memberInfo.type + "#" + memberInfo.name] = 1;
 						
-						if(memberInfo.src)
+						if (memberInfo.src)
 						{
 							memberInfo.type = _prefix + memberInfo.src;
 							var memberImport:String = "\timport " + PinYinUtils.toPinyin(getPackageNameByClassName(memberInfo.src)) + "." + PinYinUtils.toPinyin(memberInfo.type);
@@ -178,11 +172,11 @@ package
 							}
 						}
 						
-						if(memberInfo.type=="Controller")
+						if (memberInfo.type == "Controller")
 						{
 							classCodes.push("\t\tpublic var c_" + PinYinUtils.toPinyin(memberInfo.name) + ":" + PinYinUtils.toPinyin(memberInfo.type) + ";");
 						}
-						else if(memberInfo.type=="Transition")
+						else if (memberInfo.type == "Transition")
 						{
 							classCodes.push("\t\tpublic var t_" + PinYinUtils.toPinyin(memberInfo.name) + ":" + PinYinUtils.toPinyin(memberInfo.type) + ";");
 						}
@@ -195,7 +189,7 @@ package
 				}
 				
 				classCodes.push("");
-				classCodes.push("\t\tpublic static function createInstance():"+className);
+				classCodes.push("\t\tpublic static function createInstance():" + className);
 				classCodes.push("\t\t{");
 				classCodes.push("\t\t\treturn " + className + "(UIPackage.createObject(\"" + PinYinUtils.toPinyin(data.targetUIPackage.name) + "\",\"" + classInfo.className + "\"));");
 				classCodes.push("\t\t}");
@@ -209,13 +203,12 @@ package
 				classCodes.push("\t\t\tsuper.constructFromXML(xml);");
 				classCodes.push("");
 				
-				
 				var childIndex:int = 0;
 				var controllerIndex:int = 0;
 				var transitionIndex:int = 0;
-				for each(memberInfo in classInfo.members)
+				for each (memberInfo in classInfo.members)
 				{
-					if(memberInfo.type=="Controller")
+					if (memberInfo.type == "Controller")
 					{
 						if (!checkIsUseDefaultName(memberInfo.name))
 						{
@@ -223,11 +216,11 @@ package
 						}
 						controllerIndex++;
 					}
-					else if(memberInfo.type=="Transition")
+					else if (memberInfo.type == "Transition")
 					{
 						if (!checkIsUseDefaultName(memberInfo.name))
 						{
-							classCodes.push("\t\t\tt_" + PinYinUtils.toPinyin(memberInfo.name) + " = this.getTransitionAt(" + transitionIndex + ");");	
+							classCodes.push("\t\t\tt_" + PinYinUtils.toPinyin(memberInfo.name) + " = this.getTransitionAt(" + transitionIndex + ");");
 						}
 						transitionIndex++;
 					}
@@ -239,15 +232,15 @@ package
 						}
 						childIndex++;
 					}
-				}				
+				}
 				classCodes.push("\t\t}");
 				classCodes.push("\t}");
 				classCodes.push("}");
 				
 				FileTool.writeFile(codeFolder.nativePath + File.separator + getFilePackage(classFilePathName) + File.separator + className + ".as", classCodes.join("\r\n"));
 				
-//				bindCodes.push("\t\t\tUIObjectFactory.setPackageItemExtension(\"ui://" + data.targetUIPackage.id + classInfo.classId
-//					+ "\"," + className + ");");
+				//				bindCodes.push("\t\t\tUIObjectFactory.setPackageItemExtension(\"ui://" + data.targetUIPackage.id + classInfo.classId
+				//					+ "\"," + className + ");");
 				
 				bindCodes.push("\t\t\tUIObjectFactory.setPackageItemExtension(" + className + ".url, " + className + ");");
 			}
@@ -255,13 +248,12 @@ package
 			bindCodes.push("\t\t}");
 			bindCodes.push("\t}");
 			bindCodes.push("}");
-			
-			FileTool.writeFile(codeFolder.nativePath + File.separator + binderName + ".as", bindCodes.join("\r\n"));
+			_editor.alert("sssssssssssssssssssss");
+			FileTool.writeFile(codeFolder.nativePath + File.separator + binderName + "abc.as", bindCodes.join("\r\n"));
 			
 			callback.callOnSuccess();
 			return true;
 		}
-		
 		
 		private function getFilePackage(packageStr:String):String
 		{
@@ -282,7 +274,7 @@ package
 			if (packages.length > 0)
 			{
 				packages.reverse();
-				packageName = packages.join("."); 
+				packageName = packages.join(".");
 			}
 			
 			return packageName;
@@ -319,6 +311,5 @@ package
 			return true;
 		}
 	}
-	
-	
+
 }
