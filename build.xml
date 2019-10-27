@@ -20,7 +20,9 @@
 			<!-- append="true" 表示追加参数 -->
 			<external-library-path dir="libs" includes="FairyGUI-as3.swc" append="true" />
 			<!-- swc file paths -->
-			<!-- 添加需要编译到swc的类库
+			<!-- 添加需要编译到swc的类库 -->
+			<library-path dir="libs" includes="LFLib.swc" append="true" />
+			<!-- 
 			<library-path append="true">
 				<path-element>/mylibs</path-element>
 				<path-element>/myotherlibs</path-element>
