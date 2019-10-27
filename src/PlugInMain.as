@@ -21,7 +21,7 @@ package
 				//_editor.registerPublishHandler(new ExportNoZipPlugIn(_editor));
 //				_editor.registerPublishHandler(new GenerateCodePlugIn(_editor));
 				//_editor.registerPublishHandler(new AutoGenerateCodePlugin(_editor));
-				_editor.registerPublishHandler(new SaveDataPlugin(_editor));
+				_editor.registerPublishHandler(new AutoGenerateCodePluginTest(_editor));
 				//_editor.registerPublishHandler(new BatExecutePlugin(_editor));
 			}
 			

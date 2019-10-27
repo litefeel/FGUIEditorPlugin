@@ -1,12 +1,11 @@
 /*******************************************
  * Author : hanxianming
  * Date   : 2016-3-23
- * Use    : 
+ * Use    :
  *******************************************/
 
 package
 {
-	import com.litefeel.debug.Debug;
 	import com.litefeel.utils.FileUtil;
 	import flash.filesystem.File;
 	
@@ -14,8 +13,9 @@ package
 	import fairygui.editor.plugin.IFairyGUIEditor;
 	import fairygui.editor.plugin.IPublishData;
 	import fairygui.editor.plugin.IPublishHandler;
+	import flash.utils.*;
 	
-	public final class SaveDataPlugin implements IPublishHandler
+	public final class AutoGenerateCodePluginTest implements IPublishHandler
 	{
 		
 		private var packageObjByGid:Object = {};
@@ -25,11 +25,10 @@ package
 		
 		private var _prefix:String = "UI_";
 		
-		public function SaveDataPlugin(editor:IFairyGUIEditor)
+		public function AutoGenerateCodePluginTest(editor:IFairyGUIEditor)
 		{
 			_editor = editor;
 		}
-		
 		
 		/**
 		 * 组件输出类定义列表。这是一个Map，key是组件id，value是一个结构体，例如：
@@ -49,19 +48,22 @@ package
 		
 		public function doExport(data:IPublishData, callback:ICallback):Boolean
 		{
-			FileUtil.writeObject(data, "D:/My/Projects/FGUIEditorPluginDebuger/data.bytes");
-			FileUtil.writeString(Debug.showObject(data), "D:/My/Projects/FGUIEditorPluginDebuger/data.txt");
-			FileUtil.writeString(Debug.showObject(data.targetUIPackage), "D:/My/Projects/FGUIEditorPluginDebuger/data.targetUIPackage.txt");
-			FileUtil.writeString(Debug.showObject(_editor), "D:/My/Projects/FGUIEditorPluginDebuger/editor.txt");
 			
-			data.preventDefault();
+			var classCodes:Array = [];
+			var bindCodes:Array = [];
+			var allBindCodes:Array = [];
+			var sameNameCheck:Object;
 			
+			//callback.callOnSuccess();
 			
-			callback.callOnSuccess();
-			return true;
+			setTimeout(function()
+			{
+				var path = "E:/GitHub/Unity/FGUI/Assets/UI/Scripts/Package1/UI_Component1.cs";
+				FileUtil.writeString("ddddddd", path);
+			}, 0.1);
+			
+			return false;
 		}
-		
-		
 		
 		private function getFilePackage(packageStr:String):String
 		{
@@ -82,7 +84,7 @@ package
 			if (packages.length > 0)
 			{
 				packages.reverse();
-				packageName = packages.join("."); 
+				packageName = packages.join(".");
 			}
 			
 			return packageName;
@@ -119,6 +121,5 @@ package
 			return true;
 		}
 	}
-	
-	
+
 }

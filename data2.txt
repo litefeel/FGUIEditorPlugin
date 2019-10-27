@@ -1,0 +1,241 @@
+data : Object {
+	outputClasses : Object {
+		gkqb0 : Object {
+			classId : "gkqb0" 
+			className : "Component1" 
+			members : Array {
+				0 : Object {
+					index : 0 
+					name : "n3" 
+					type : "GImage" 
+				}
+				1 : Object {
+					index : 1 
+					name : "n4" 
+					type : "GTextInput" 
+				}
+				2 : Object {
+					index : 2 
+					name : "n0" 
+					type : "GGraph" 
+				}
+				3 : Object {
+					index : 3 
+					name : "n1" 
+					type : "GGraph" 
+				}
+				4 : Object {
+					index : 4 
+					name : "n2" 
+					type : "GGraph" 
+				}
+				5 : Object {
+					index : 6 
+					name : "n7" 
+					src : "Component2" 
+					src_id : "gkqb4" 
+					type : "GComponent" 
+				}
+			}
+			superClassName : "GComponent" 
+		}
+		gkqb4 : Object {
+			classId : "gkqb4" 
+			className : "Component2" 
+			members : Array {
+				0 : Object {
+					index : 0 
+					name : "button" 
+					type : "Controller" 
+				}
+				1 : Object {
+					index : 1 
+					name : "c2" 
+					type : "Controller" 
+				}
+				2 : Object {
+					index : 0 
+					name : "n0" 
+					type : "GGraph" 
+				}
+				3 : Object {
+					index : 1 
+					name : "n1" 
+					type : "GGraph" 
+				}
+				4 : Object {
+					index : 2 
+					name : "n2" 
+					type : "GLoader" 
+				}
+				5 : Object {
+					index : 3 
+					name : "n3" 
+					type : "GList" 
+				}
+				6 : Object {
+					index : 3 
+					name : "t0" 
+					type : "Transition" 
+				}
+				7 : Object {
+					index : 4 
+					name : "t1" 
+					type : "Transition" 
+				}
+				8 : Object {
+					index : 5 
+					name : "t2" 
+					type : "Transition" 
+				}
+				9 : Object {
+					index : 6 
+					name : "t3" 
+					type : "Transition" 
+				}
+				10 : Object {
+					index : 7 
+					name : "t4" 
+					type : "Transition" 
+				}
+			}
+			superClassName : "GComponent" 
+		}
+		qp1b5 : Object {
+			classId : "qp1b5" 
+			className : "Component3" 
+			members : Array {
+				0 : Object {
+					index : 0 
+					name : "n0" 
+					pkg : "Package2" 
+					pkg_id : "vmko55r9" 
+					src : "Buttonx" 
+					src_id : "qp1b1" 
+					type : "GComponent" 
+				}
+				1 : Object {
+					index : 1 
+					name : "n1" 
+					type : "GImage" 
+				}
+				2 : Object {
+					index : 2 
+					name : "n2" 
+					src : "Button1" 
+					src_id : "qp1b6" 
+					type : "GComponent" 
+				}
+			}
+			superClassName : "GComponent" 
+		}
+		qp1b6 : Object {
+			classId : "qp1b6" 
+			className : "Button1" 
+			members : Array {
+				0 : Object {
+					index : 1 
+					name : "button" 
+					type : "Controller" 
+				}
+				1 : Object {
+					index : 0 
+					name : "n0" 
+					type : "GGraph" 
+				}
+				2 : Object {
+					index : 1 
+					name : "n1" 
+					type : "GGraph" 
+				}
+				3 : Object {
+					index : 2 
+					name : "n2" 
+					type : "GGraph" 
+				}
+			}
+			superClassName : "GButton" 
+		}
+	}
+	outputDesc : Object {
+		gkqb0.xml : XML {
+			0 : XML {
+				0 : XML 
+				1 : XML 
+				2 : XML 
+				3 : XML 
+				4 : XML 
+				5 : XML 
+			}
+		}
+		gkqb4.xml : XML {
+			0 : XML 
+			1 : XML 
+			2 : XML {
+				0 : XML {
+					0 : XML 
+				}
+				1 : XML 
+				2 : XML {
+					0 : XML 
+					1 : XML 
+				}
+				3 : XML 
+			}
+			3 : XML {
+				0 : XML 
+				1 : XML 
+			}
+			4 : XML 
+			5 : XML 
+			6 : XML 
+			7 : XML 
+		}
+		package.xml : XML {
+			0 : XML {
+				0 : XML 
+				1 : XML 
+				2 : XML 
+				3 : XML 
+				4 : XML 
+				5 : XML 
+			}
+		}
+		qp1b5.xml : XML {
+			0 : XML {
+				0 : XML 
+				1 : XML 
+				2 : XML 
+			}
+		}
+		qp1b6.xml : XML {
+			0 : XML 
+			1 : XML 
+			2 : XML {
+				0 : XML {
+					0 : XML 
+					1 : XML 
+				}
+				1 : XML {
+					0 : XML 
+					1 : XML 
+				}
+				2 : XML {
+					0 : XML 
+					1 : XML 
+				}
+			}
+		}
+	}
+	outputRes : Object {
+		atlas0.png : flash.utils.ByteArray {
+			bytesAvailable : 14458 [0x387a] 
+			endian : "bigEndian" 
+			length : 14458 [0x387a] 
+			objectEncoding : 3 
+			position : 0 
+			shareable : false 
+		}
+	}
+	sprites : "//FairyGUI atlas sprites.\ngkqb1 0 0 0 159 205 0" 
+}
